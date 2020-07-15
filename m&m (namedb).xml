@@ -1367,12 +1367,12 @@ temp_name_list = {}
 temp_name_list[1] = {
   name = ndb.honorsname, demigod = 0,
   guildenemy = 0, orgenemy = 0, immortal = 0,
-  gender = line:find(&quot;%f[%a][mM]ale%f[%A]&quot;) and 'male' or 'female',
+  gender = line:find("%f[%a][mM]ale%f[%A]") or line:find("%f[%a][nN]on%f[%A]-%f[%a][bB]inary[%A]") and 'male' or 'female' or 'non-binary',
   title = line:match(&quot;(.-) %(&quot;)
 }
 
 local brackets = line:match(&quot;%((.-)%)&quot;)
-if brackets:find(&quot;%f[%a]God%f[%A]&quot;) or brackets:find(&quot;%f[%a]Goddess%f[%A]&quot;) or brackets:find(&quot;%f[%a]Ephemeral%f[%A]&quot;) then
+if brackets:find(&quot;%f[%a]God%f[%A]&quot;) or brackets:find(&quot;%f[%a]Goddess%f[%A]&quot;) or brackets:find(&quot;%f[%a]Divine%f[%A]&quot;) or brackets:find(&quot;%f[%a]Immortal%f[%A]&quot;) or brackets:find(&quot;%f[%a]Ephemeral%f[%A]&quot;) then
   temp_name_list[1].immortal = 1
   temp_name_list[1].gender = &quot;&quot;
 elseif brackets:find(&quot;Demigod&quot;,1,true) then

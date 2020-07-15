@@ -189,7 +189,6 @@ function M.preprocess(t)
              (type(input) == 'string' and 'string') or io.stdout
   local lookup = t.lookup or _G
   local strict = t.strict; if strict == nil then strict = true end
-
   input = make_input(input)
   local name = input.name or "<source>"
 

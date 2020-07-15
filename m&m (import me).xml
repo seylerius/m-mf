@@ -464,7 +464,8 @@ end</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness herb</name>
-                            <script>mm.valid.herb_cured_recklessness()</script>
+                            <script>mm.valid.herb_cured_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -3511,7 +3512,8 @@ mm.show_vessels(1)</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness lucidity</name>
-                            <script>mm.valid.sip_cured_recklessness()</script>
+                            <script>mm.valid.sip_cured_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -6897,7 +6899,8 @@ end</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness focusmind</name>
-                            <script>mm.valid.focus_cured_recklessness()</script>
+                            <script>mm.valid.focus_cured_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -8594,7 +8597,8 @@ resetFormat()</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness generic</name>
-                            <script>mm.valid.generic_recklessness()</script>
+                            <script>mm.valid.generic_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -10919,7 +10923,8 @@ mm.defs.lost_fire()</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness generic</name>
-                            <script>mm.valid.generic_recklessness()</script>
+                            <script>mm.valid.generic_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -12183,7 +12188,8 @@ mm.defs.lost_fire()</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness allheale</name>
-                            <script>mm.valid.allheale_cured_recklessness()</script>
+                            <script>mm.valid.allheale_cured_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>
@@ -14445,7 +14451,8 @@ mm.defs.lost_fire()</script>
                         </Trigger>
                         <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                             <name>m&amp;m cure recklessness allheale</name>
-                            <script>mm.valid.allheale_cured_recklessness()</script>
+                            <script>mm.valid.allheale_cured_recklessness()
+			    mm.removeaff("recklessness")</script>
                             <triggerType>0</triggerType>
                             <conditonLineDelta>0</conditonLineDelta>
                             <mStayOpen>0</mStayOpen>

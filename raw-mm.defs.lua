@@ -997,7 +997,7 @@ defs_data = phpTable({
     on = {"Pressing your hands together before you, you concentrate on your root chakra. A red glow runs down your spine, helping anchor you to the earth.", "The red chakra already burns bright within your body."}},
   blue = { type = "lowmagic", def = "You have empowered your blue chakra.",
     on = {"Pressing your hands together before you, you concentrate on your throat chakra. A blue glow suffuses your throat, protecting all your communications.", "The blue chakra already burns bright within your body."}},
-  orange = { type = "lowmagic", def = "You have empowered your orange chakra.",
+  orange = { type = "lowmagic", def = "You are protected from hunger by an orange aura.",
     on = "Pressing your hands together before you, you concentrate on your belly chakra. An orange glow suffuses the area around your stomach and the pangs of hunger disappear.",
     off = "You feel your orange chakra fade."},
   autumn = { type = "lowmagic",
@@ -2735,7 +2735,7 @@ defences.complete_def({name = "Omniscience", def = "You are omnisciently listeni
 
 defences.complete_def({name = "OolongTea", def = "Your passion is herbally heightened.", tooltip = "Blocks recklessness, peace, and pacifism."})
 
-defences.complete_def({name = "Orange", def = "You have empowered your orange chakra.", tooltip = "Halves accrual of hunger."})
+defences.complete_def({name = "Orange", def = "You are protected from hunger by an orange aura.", tooltip = "Halves accrual of hunger."})
 
 defences.complete_def({name = "Penumbra", def = "You have evoked the ritual of penumbra.", tooltip = "Gives a weighted +2 charisma, ego regeneration, and the appearance of youth."})
 
